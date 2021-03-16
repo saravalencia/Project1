@@ -11,3 +11,78 @@ body{
     margin: 0; 
     padding: 0; 
 }
+
+.menu-wrap {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+}
+
+.menu-wrap .toggler{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 2; 
+    cursor: pointer; 
+    width: 50px;
+    height: 50px; 
+    opacity: 0; 
+
+}
+
+.menu-wrap .hamburger {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    width: 60px; 
+    height: 60px; 
+    padding: 1rem; 
+    background: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 11px;
+}
+
+/* Hamburger Line */
+
+.menu-wrap .hamburger > div{
+    position: relative; 
+    width: 100%; 
+    height: 2px; 
+    background-color: black; 
+    align-items: center; 
+    justify-content: center; 
+    transition: all 0.4s ease;
+}
+
+/* TOP AND BOTTOM LINES */ 
+.menu-wrap .hamburger > div:before, 
+.menu-wrap .hamburger > div:after{
+   content: ""; 
+   position: absolute; 
+   z-index: 1; 
+   top: -10px; 
+   width: 100%; 
+   height: 2px; 
+   background: inherit; 
+
+}
+
+/* Moves line down */ 
+.menu-wrap .hamburger > div:after{
+    top: 10px; 
+}
+
+/* toggler animate */
+
+.menu-wrap .hamburger > div{
+    transform: rotate(135deg);
+}
+
+.container-title{
+    width: 100%; 
+    height: 100vh; 
+}
