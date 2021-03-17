@@ -6,8 +6,8 @@ body{
      font-family: 'Open Sans', sans-serif;
 }
 
-*{
-    box-sizing: border-box; 
+* {
+    box-sizing: border-box;
     margin: 0; 
     padding: 0; 
 }
@@ -55,7 +55,7 @@ body{
     background-color: black; 
     align-items: center; 
     justify-content: center; 
-    transition: all 0.4s ease;
+    transition: all 0.8s ease;
 }
 
 /* TOP AND BOTTOM LINES */ 
@@ -78,11 +78,33 @@ body{
 
 /* toggler animate */
 
-.menu-wrap .hamburger > div{
-    transform: rotate(135deg);
+.menu-wrap .toggler:checked + .hamburger + div {
+    transform: rotate(180deg);
+    transition: all 1s ease-in-out;
+    
+}
+    
+
+
+.menu-wrap .toggler:checked + .hamburger > div:before, 
+.menu-wrap .toggler:checked + .hamburger > div:after{
+    top: 0; 
+    transform: rotate(90deg);
 }
 
-.container-title{
-    width: 100%; 
+/* Title Text for the Homepage */ 
+
+
+
+
+.title-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     height: 100vh; 
+    font-family: 'Alex Brush', cursive;    
+    color: white; 
+    font-size: 15rem;
+    text-shadow: 2px 2px black; 
 }
