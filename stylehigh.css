@@ -10,6 +10,7 @@ body{
 
 }
 .food{
+    position: relative;
     width: 200px;
 height: 320px;
 border-radius: 50px;
@@ -22,6 +23,7 @@ margin-top: 50px;
     
 }
 .placaio{
+    position: relative;
     width: 200px;
 height: 320px;
 border-radius: 50px;
@@ -33,6 +35,7 @@ margin-top: 50px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.85)
 }
 .view{
+    position: relative;
     width: 200px;
 height: 320px;
 border-radius: 50px;
@@ -90,45 +93,46 @@ margin-top: 30px;
 .foodtext{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 54%;
-    right: 74.5%;
+    top: 37%;
+    right: 35%;
     font-size: 180%;
 }
 .fooddescription{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 64%;
-    right: 70%;
+    top: 58%;
+    right: 9%;
     text-align: center;
     font-size: 115%;
 }
 .palacaiotext{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 52%;
-    left: 45.5%;
+    top: 35%;
+    left: 28%;
     font-size: 155%;
+    text-align: justify;
 }
 .palacaiodescription{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 64%;
-   left:42%;
+    top: 58%;
+    left: 12%;
     text-align: center;
     font-size: 115%;
 }
 .viewtext{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 54%;
-    left: 72%;
+    top: 35%;
+    left: 24%;
     font-size: 180%;
 }
 .viewdescription{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 64%;
-    right: 17%;
+    top: 55%;
+    right: 21%;
     text-align: center;
     font-size: 115%;
 }
