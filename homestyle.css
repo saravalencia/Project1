@@ -33,7 +33,6 @@ body{
 #bar1{
     transform: translateY(-4px);
 
-
 }
 
 
@@ -165,9 +164,13 @@ ul{
 
     .btn-discover{
        position: relative; 
-       left: 300px;
+       left: 37%;
        width: 30%;
 
+    }
+
+    .title-text{
+        font-size: 100px
     }
 
 }
