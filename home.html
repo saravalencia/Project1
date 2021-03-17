@@ -11,32 +11,26 @@
 </head>
 <body>
     <!-- Creating the navigation bar-->
-    <div class="menu-wrap">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"></div>
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
-            <div>
-                <div>
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="home">Highlights</a></li>
-                    <li><a href="home">Book a Guide</a></li>
-                    <li><a href="home">History</a></li>
-                    <li><a href="home">Food</a></li>
-                    <li><a href="home">Contact Us</a></li>
-                </ul>
-                </div>
-            </div>
-      </div>
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">Highlights</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </div>
-    <header class="showcase">
-<div class="container showcase-inner">
-</div>
-    </header>
-
+   
     <div class="container-title">
        <h1 class="title-text">Montjuic</h1>
     </div>
+    <button class="btn-discover">Discover</button>
+    <div class="menu-bg" id="menu-bg"></div>
+   <script src="home.js"></script>
 </body>
 </html>
