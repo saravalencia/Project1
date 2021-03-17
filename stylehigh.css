@@ -1,0 +1,62 @@
+body{
+    background:  rgba(57, 49, 49, 0.84);
+}
+.highlights{
+    display: flex;
+    justify-content: center;
+
+}
+.food{
+    width: 200px;
+height: 320px;
+border-radius: 50px;
+background: #fff;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.85);
+margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.placaio{
+    width: 200px;
+height: 320px;
+border-radius: 50px;
+background: #fff;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.85);
+margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.view{
+    width: 200px;
+height: 320px;
+border-radius: 50px;
+background: #fff;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.85);
+margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.title{
+    color: floralwhite;
+    display: flex;
+    justify-content: center;
+    font-family: 'Amita', cursive;
+    font-weight: normal;
+font-size: 60px;
+letter-spacing: 0.05em;
+text-shadow: 0px 6px 12px rgba(0, 0, 0, 0.53);
+margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+img  {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+    border-radius: inherit;
+    object-position: top;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.85);
+}
