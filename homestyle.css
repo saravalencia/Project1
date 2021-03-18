@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
      background-position: top;
      font-family: 'Open Sans', sans-serif;
+     overflow-x: auto; 
      
 }
 
@@ -117,15 +118,18 @@ ul{
 }
 /* Title Text for the Homepage */ 
 
-
+.container-title{
+    width: 100%;
+    margin-top: 20%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
 
 
 .title-text{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
+    
     font-family: 'Alex Brush', cursive;    
     color: white; 
     font-size: 15rem;
@@ -135,10 +139,7 @@ ul{
 /* creating and positioning the btn-discover */ 
 
 .btn-discover{
-    position: absolute; 
-    left: 650px; 
-    bottom: 225px;
-    width: 10%;
+    width: 150px; 
     height: 50px; 
     border-radius: 20px; 
     cursor: pointer; 
@@ -170,15 +171,15 @@ ul{
 
 @media screen and (max-width:500px){
 
-    .btn-discover{
-       position: relative; 
-       left: 37%;
-       width: 30%;
+    .container-title{
+       margin-top: 50%; 
 
     }
 
+   
+
     .title-text{
-        font-size: 100px
+        font-size: 7rem; 
     }
 
 }
