@@ -1,12 +1,14 @@
 
 body{
     background-image: url(images/highbackground.png);
-    background-color: blanchedalmond;
+    background-color:#FCD24A;
+    background-repeat: no-repeat;
 }
 
 .highlights{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 .food{
