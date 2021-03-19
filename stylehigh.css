@@ -9,9 +9,13 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    animation: zoomIn; 
+    animation-duration: 1s; 
+    
 
 }
 .food{
+    
     position: relative;
     width: 200px;
 height: 320px;
@@ -102,7 +106,7 @@ margin-top: 30px;
 .fooddescription{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 58%;
+    top: 52%;
     right: 9%;
     text-align: center;
     font-size: 115%;
@@ -118,8 +122,8 @@ margin-top: 30px;
 .palacaiodescription{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 58%;
-    left: 12%;
+    top: 55%;
+    left: 9%;
     text-align: center;
     font-size: 115%;
 }
@@ -133,8 +137,197 @@ margin-top: 30px;
 .viewdescription{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 55%;
+    top: 52%;
     right: 21%;
     text-align: center;
     font-size: 115%;
+}
+
+/* Hamburger Menu set up */ 
+#menu{
+    
+    width: 35px; 
+    height: 30px; 
+    margin: 30px 0 20px 20px;
+    cursor: pointer; 
+}
+
+.bar{
+    height: 5px; 
+    width: 100%; 
+    background-color: orange; 
+    display: block; 
+    border-radius: 5px;
+    transition: 0.3s ease; 
+}
+
+#bar1{
+    transform: translateY(-4px);
+
+}
+
+
+
+#bar3{
+    transform:translateY(4px);
+}
+
+.change .bar{
+    background-color: white; 
+}
+
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg); 
+}
+
+.change #bar3{
+    transform:translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2 {
+    opacity: 0; 
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.nav li a{
+  color: white; 
+  text-decoration: none; 
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.nav li{
+    list-style: none; 
+    padding: 16px 0; 
+}
+
+.nav{
+    padding: 0; 
+    margin: 0 20px; 
+    transition: 0.3s ease; 
+    display: none; 
+}
+
+.nav li a:hover{
+    font-weight: bold;
+    color: black; 
+}
+
+.change{
+    display: block; 
+    
+}
+
+.menu-bg{
+    width: 0; 
+    height: 0; 
+    background-color: orange; 
+    transition: 0.3s ease; 
+    z-index: 1;
+    border-radius: 50%; 
+}
+
+.change-bg{
+    width: 550px; 
+    height: 540px; 
+    transform: translate(-60%, -20%); 
+
+}
+
+.menu-bg, #menu-bar{
+    top: 0; 
+    left: 0; 
+    position: absolute;
+}
+
+#menu-bar{
+    z-index: 5; 
+}
+
+.tooltip {
+    position: absolute;
+    color: #00b4ab;
+    cursor: pointer;
+  }
+  
+  .tooltip .tooltip-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    visibility: hidden;
+    max-width: 300px;
+    background-color: #00b4ab;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 25px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: .3s;
+    transform: translate3d(0px, 20px, 0px);
+  }
+  
+  .tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00b4ab transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+
+  .Button {
+	background-color:#00b4ab;
+	border-radius:21px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 17px;
+	text-decoration:none;
+	text-shadow:1px 1px 3px #323332d3;
+    box-shadow: 0px 3px 6px rgba(27, 27, 27, 0.445)
+}
+.Button:hover {
+	background-color:orange;
+}
+/*.Button:active {
+	position:relative;
+	top:1px;
+} */
+
+.Button-food {
+    position: relative;
+    top: 20px;
+    left: 0;
+}
+.Button-palacaio {
+    position: relative;
+    top: 40%;
+    margin-top: 10px;
+}
+.Button-view {
+    position: relative;
+    top: 40%;
+    left: 23%;
+    width: 40%; 
+    text-align: center; 
+
+    
 }
