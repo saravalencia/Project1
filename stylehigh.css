@@ -10,7 +10,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     animation: zoomIn; 
-    animation-duration: 3s; 
+    animation-duration: 1s; 
     
 
 }
@@ -106,7 +106,7 @@ margin-top: 30px;
 .fooddescription{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 58%;
+    top: 52%;
     right: 9%;
     text-align: center;
     font-size: 115%;
@@ -122,8 +122,8 @@ margin-top: 30px;
 .palacaiodescription{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 58%;
-    left: 12%;
+    top: 55%;
+    left: 9%;
     text-align: center;
     font-size: 115%;
 }
@@ -137,7 +137,7 @@ margin-top: 30px;
 .viewdescription{
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 55%;
+    top: 52%;
     right: 21%;
     text-align: center;
     font-size: 115%;
@@ -245,4 +245,85 @@ ul{
 
 #menu-bar{
     z-index: 5; 
+}
+
+.tooltip {
+    position: absolute;
+    color: #00b4ab;
+    cursor: pointer;
+  }
+  
+  .tooltip .tooltip-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    visibility: hidden;
+    max-width: 300px;
+    background-color: #00b4ab;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 25px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: .3s;
+    transform: translate3d(0px, 20px, 0px);
+  }
+  
+  .tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00b4ab transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+
+  .Button {
+	background-color:#00b4ab;
+	border-radius:21px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 17px;
+	text-decoration:none;
+	text-shadow:1px 1px 3px #323332d3;
+    box-shadow: 0px 3px 6px rgba(27, 27, 27, 0.445)
+}
+.Button:hover {
+	background-color:orange;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+.Button-food {
+    position: relative;
+    top: 40%;
+    left: 25%;
+}
+.Button-palacaio {
+    position: relative;
+    top: 40%;
+    margin-top: 10px;
+}
+.Button-view {
+    position: relative;
+    top: 40%;
+    left: 32%;
+    
 }

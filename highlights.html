@@ -24,41 +24,68 @@
         <div id="bar3" class="bar"></div>
     </div>
     <ul class="nav" id="nav">
-        <li><a href="#">home</a></li>
-        <li><a href="#">Highlights</a></li>
-        <li><a href="#">Food</a></li>
+        <li><a href="home.html">home</a></li>
+        <li><a href="highlights.html">Highlights</a></li>
+        <li><a href="food.html">Food</a></li>
         <li><a href="#">History</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
 </div>
-
+<div class="menu-bg" id="menu-bg"></div>
 <h1 class='title'>Highlights</h1>
 <body>
+
     <!-- Cards-->
+    <!--Food-->
     <div id="highlights" class="highlights">
-        <div id= "food"  class=food>
+        <div id= "food"  class="food">
             <img class="image1" src="images\food.png">
-              <h2 class= "foodtext">Food</h2>
+              <h2 class= "foodtext tooltip">Food<span class="tooltip-text">Check this restaurants
+            near Montjuic : <br>
+         -Bankok Café<br>
+         -Abrassa<br>
+         -El Xalet<br>
+         -The Tatami Room
+            </span>
+            </h2>
             <p class="fooddescription">In Montjuic you can <br>
                 find the best food <br>
                 with the best view <br>
             </p>
+            <a href="food.html" class="Button Button-food">Discover</a>
            
+            <!--Palacaio-->
+
         </div>
      <div id="palacaio" class="placaio">
             <img class="image2" src="images\palace.png">
-            <h2 class= "palacaiotext">Palacaio <br> Montjuic</h2>
+            <h2 class= "palacaiotext tooltip">Palacaio  <br> Montjuic
+                <span class="tooltip-text">OPENING TIMES:<br>
+                    -Monday to sunday : <br>
+                    from 10am to 8pm <br>
+                    -ADMISSION FEES:<br>
+                    General admission fee: 5€</span></h2>
+            
             <p class="palacaiodescription">In Montjuic you can <br>
                 Experience a castel <br>
                 on another level <br>
+                <a href="history.html" class="Button Button-palacaio">Learn More</a>
         </div>
+
+        <!--View-->
 
     <div id="view" class="view">
             <img class="image3" src="images\view.png">
-            <h2 class="viewtext">Montjuic<br></h2>
+            <h2 class="viewtext tooltip">Montjuic
+                <span class="tooltip-text">Guided tours timetable<br>
+                     - Monday to Friday: <br>                                                                                        
+                     English: 11.00am   <br>                                                                  
+                     French: 11.30am </span>
+            </h2>
                 <p class="viewdescription">Enjoy the <br>
                     amazing view <br>
                     from Montjuic<br></p>
+            <a href="Montjuïc.bookaguide.html" class="Button Button-view">Book</a>
         </div>
     </div>
     <script src="functionhighlights.js"></script>
