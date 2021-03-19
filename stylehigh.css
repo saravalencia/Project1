@@ -307,14 +307,15 @@ ul{
 .Button:hover {
 	background-color:orange;
 }
-.Button:active {
+/*.Button:active {
 	position:relative;
 	top:1px;
-}
+} */
+
 .Button-food {
     position: relative;
-    top: 40%;
-    left: 25%;
+    top: 20px;
+    left: 0;
 }
 .Button-palacaio {
     position: relative;
@@ -324,6 +325,9 @@ ul{
 .Button-view {
     position: relative;
     top: 40%;
-    left: 32%;
+    left: 23%;
+    width: 40%; 
+    text-align: center; 
+
     
 }
