@@ -9,9 +9,13 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    animation: zoomIn; 
+    animation-duration: 3s; 
+    
 
 }
 .food{
+    
     position: relative;
     width: 200px;
 height: 320px;
