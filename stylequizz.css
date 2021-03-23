@@ -3,6 +3,7 @@ body {
   }
 
 header {
+    margin-top: 40px;
     font-family: "Segoe UI";
     font-weight: bold;
     font-size: 20px;
