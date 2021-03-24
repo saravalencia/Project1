@@ -3,7 +3,10 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     margin:0 ; 
+<<<<<<< HEAD
     background-color: rgba(255, 233, 194, 0.829);
+=======
+>>>>>>> a9f898b6fe344467464fc8673e8c2582d2b8d19e
 }
 
 
