@@ -12,6 +12,7 @@ body{
     flex-wrap: wrap;
     animation: zoomIn; 
     animation-duration: 1s; 
+    margin-top: 2%;
     
 
 }
@@ -261,8 +262,9 @@ ul{
   }
   
   .tooltip .tooltip-text {
+      
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
+    font-size: 15px !important; 
     line-height: 1.5em;
     visibility: hidden;
     max-width: 300px;
@@ -335,6 +337,7 @@ ul{
     left: 23%;
     width: 40%; 
     text-align: center; 
-
-    
 }
+
+/*footer*/
+
