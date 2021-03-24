@@ -11,12 +11,18 @@ body{
   
 #booking{
 
-    background-color: aliceblue;
+    background-color: white;
     text-align:justify;
     font-size: 60px;
     padding: 25px;
     font-family: 'Playfair Display', serif;
     line-height: 50px;
+    text-shadow:1px 1px 3px #323332d3;
+    border-left-width: 60px;
+    display: flex;
+    padding-left: 110px;
+    flex-wrap: wrap;
+    
 
 }
 
@@ -163,4 +169,160 @@ input[type=range] {
 
 #contact div{
   text-align: center;
+}
+.titlefollow {
+  font-size: 60%;
+  margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.col-sm-4  {
+   position: inherit;
+    right: 3%;
+   }
+   
+   .contact {
+    font-size: 128%;
+    position: relative;
+    margin-top: 5%;
+    left: 3%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: inherit;
+}
+   
+.col-xs-12 {position: relative;
+    left: 5%;
+}
+.inputsuscribe {
+  position: fixed;
+    left: 79%;
+    margin-top: 6px;
+    height: 4%;
+    border-radius: 30px;
+}
+
+.logofooter {
+    margin-top: 7%;
+    position: relative;
+    right: 16%;
+    font-family: 'Alex Brush', cursive;
+    font-size: 6rem;
+    text-shadow:1px 1px 3px #323332d3;
+} */
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+  div.booking {
+    font-size: 30px;
+  }
+
+}
+
+
+/* Hamburger Menu set up */ 
+#menu{
+    
+  width: 35px; 
+  height: 30px; 
+  margin: 30px 0 20px 20px;
+  cursor: pointer; 
+}
+
+.bar{
+  height: 5px; 
+  width: 100%; 
+  background-color: orange; 
+  display: block; 
+  border-radius: 5px;
+  transition: 0.3s ease; 
+}
+
+#bar1{
+  transform: translateY(-4px);
+
+}
+
+
+
+#bar3{
+  transform:translateY(4px);
+}
+
+.change .bar{
+  background-color: white; 
+}
+
+.change #bar1{
+  transform: translateY(4px) rotateZ(-45deg); 
+}
+
+.change #bar3{
+  transform:translateY(-6px) rotateZ(45deg);
+}
+
+.change #bar2 {
+  opacity: 0; 
+}
+
+ul{
+  list-style: none;
+  
+}
+
+.nav li a{
+color: white; 
+text-decoration: none; 
+font-family: 'Open Sans', sans-serif; 
+}
+
+.nav li{
+  list-style: none; 
+  padding: 16px 0; 
+}
+
+.nav{
+  padding: 0; 
+  margin: 0 20px; 
+  transition: 0.3s ease; 
+  display: none; 
+}
+
+.nav li a:hover{
+  font-weight: bold;
+  color: black; 
+}
+
+.change{
+  display: block; 
+  
+}
+
+.menu-bg{
+  width: 0; 
+  height: 0; 
+  background-color: orange; 
+  transition: 0.3s ease; 
+  z-index: 1;
+  border-radius: 50%; 
+}
+
+.change-bg{
+  width: 550px; 
+  height: 540px; 
+  transform: translate(-60%, -20%); 
+
+}
+
+.menu-bg, #menu-bar{
+  top: 0; 
+  left: 0; 
+  position: absolute;
+}
+
+#menu-bar{
+  z-index: 5; 
 }
