@@ -3,18 +3,20 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     margin:0 ; 
+<<<<<<< HEAD
+    background-color: rgba(255, 233, 194, 0.829);
+=======
+>>>>>>> a9f898b6fe344467464fc8673e8c2582d2b8d19e
 }
 
-img {
-    width: 100%;
-    height: auto;
-  }
+
+  
 p {
       text-align: center;
     align-items: center;
     font-size: 10px;
     font-size:1.5vw;
-    text-justify: inter-word;
+    text-justify:justify;
     
 }
 .header {
@@ -23,14 +25,14 @@ p {
 }
 .history {
     position: absolute;
-    top: 4%;
-    left: 5%;
-    font-family: 'Alex Brush', cursive;
+    bottom: 77%;
+    right: 15%;
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
-font-size: 9vw;
-letter-spacing: 0.05em;
+font-size: 7vw;
+letter-spacing: 0.02em;
 text-shadow: 1px 8px 14px rgba(0, 0, 0, 0.53);
-color:orange;
+color: black;
 }
 .button {
     position: absolute;
@@ -169,13 +171,33 @@ ul{
 
     .container-title{
        margin-top: 50%; 
-
+  
     }
 
-   
+   .mySlides {
+       max-width: 60%;
+   }
 
     .title-text{
         font-size: 7rem; 
     }
+    
+    p {
+        text-align:left
+    }
+}
 
+.mySlides {display:none;
+    border-radius: 50px;
+    box-shadow: 1px 8px 14px rgba(0, 0, 0, 0.53);
+    margin-left: 15px;
+}
+.w3-display-container {
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.w3-display-left {
+    margin-left: 15px;
 }
