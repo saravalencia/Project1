@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     margin:0 ; 
-    background-image: url(images/highbackground.png); 
+    background-image: url('../images/highbackground.png'); 
    
     
     background-color: rgba(255, 233, 194, 0.829);

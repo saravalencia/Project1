@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(images/highbackground.png);
+    background-image: url('../images/highbackground.png');
     background-color:#FCD24A;
     background-repeat: no-repeat;
     
