@@ -3,10 +3,10 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     margin:0 ; 
-<<<<<<< HEAD
+    background-image: url(images/highbackground.png); 
+   
+    
     background-color: rgba(255, 233, 194, 0.829);
-=======
->>>>>>> a9f898b6fe344467464fc8673e8c2582d2b8d19e
 }
 
 
@@ -25,7 +25,8 @@ p {
 }
 .history {
     position: absolute;
-    bottom: 82%;
+    bottom: 80%;
+    
     right: 15%;
     font-family: 'Playfair Display', serif;
     font-weight: normal;
@@ -188,7 +189,7 @@ ul{
     }
 }
 
-.mySlides {display:none;
+.mySlides {display:none;  
     border-radius: 50px;
     box-shadow: 1px 8px 14px rgba(0, 0, 0, 0.53);
     margin-left: 15px;
@@ -196,6 +197,7 @@ ul{
 .w3-display-container {
     display: flex;
     width: 100%;
+    top: 2%; 
     margin-top: 70px;
 }
 
@@ -221,6 +223,6 @@ ul{
 .info-text {
     position: absolute;
     left: 25%; 
-    
-    width: 50%; 
+    width: 50%;
+     
 }
