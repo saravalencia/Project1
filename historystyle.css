@@ -25,7 +25,7 @@ p {
 }
 .history {
     position: absolute;
-    bottom: 77%;
+    bottom: 82%;
     right: 15%;
     font-family: 'Playfair Display', serif;
     font-weight: normal;
@@ -33,6 +33,7 @@ font-size: 7vw;
 letter-spacing: 0.02em;
 text-shadow: 1px 8px 14px rgba(0, 0, 0, 0.53);
 color: black;
+z-index: 1; 
 }
 .button {
     position: absolute;
