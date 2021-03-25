@@ -147,3 +147,10 @@ p{
     height: 50%; 
       
 }
+
+.text-food{
+    width: 50%; 
+    position: absolute;
+    left: 25%; 
+    line-height: 2;
+}
