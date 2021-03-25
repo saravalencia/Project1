@@ -6,10 +6,7 @@ body {
     background-image: url(images/highbackground.png); 
    
     
-<<<<<<< HEAD
     background-color: rgba(255, 233, 194, 0.829);
-=======
->>>>>>> a9f898b6fe344467464fc8673e8c2582d2b8d19e
 }
 
 
@@ -28,7 +25,8 @@ p {
 }
 .history {
     position: absolute;
-    bottom: 82%;
+    bottom: 80%;
+    
     right: 15%;
     font-family: 'Playfair Display', serif;
     font-weight: normal;
