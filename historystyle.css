@@ -202,3 +202,10 @@ ul{
 .w3-display-left {
     margin-left: 15px;
 }
+
+.info-text {
+    position: absolute;
+    left: 25%; 
+    
+    width: 50%; 
+}
