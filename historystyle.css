@@ -3,6 +3,9 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     margin:0 ; 
+    background-image: url(images/highbackground.png); 
+   
+    
 <<<<<<< HEAD
     background-color: rgba(255, 233, 194, 0.829);
 =======
@@ -188,7 +191,7 @@ ul{
     }
 }
 
-.mySlides {display:none;
+.mySlides {display:none;  
     border-radius: 50px;
     box-shadow: 1px 8px 14px rgba(0, 0, 0, 0.53);
     margin-left: 15px;
@@ -196,6 +199,7 @@ ul{
 .w3-display-container {
     display: flex;
     width: 100%;
+    top: 2%; 
     margin-top: 70px;
 }
 
@@ -206,6 +210,6 @@ ul{
 .info-text {
     position: absolute;
     left: 25%; 
-    
-    width: 50%; 
+    width: 50%;
+     
 }
